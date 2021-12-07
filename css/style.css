@@ -51,7 +51,6 @@ hr {
 .nav {
   padding: 10px;
   background: lavender;
-  border: 2px solid lavender;
   border-radius: 5px;
   margin: 5px auto;
   max-width: 50%;
@@ -185,7 +184,7 @@ hr {
 
   .tagline {
     font-size: larger;
-    padding: 60 40px;
+    padding: 60px 40px;
     order: -1;
     text-align: center;
   }
