@@ -1,57 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Mir Thomasson</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <header class="main-header">
+      <h1 class="name">Mir Thomasson</h1>
+      <ul class="main-nav">
+        <li class="nav"><a href="#">Home</a></li>
+        <li class="nav"><a href="#port">Portfolio</a></li>
+        <li class="nav"><a href="#skills">Skills</a></li>
+        <li class="nav"><a href="#HMU">Contact</a></li>
+      </ul>
+    </header>
 
-<header class="main-header">
-    <h1 class="name"><a href="#">Mir Thomasson</a></h1>
-    <ul class="main-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+    <main>
+    <div class="intro">
+      <img class="logo" src="img/profile-pic.png" alt="profile picture"/>
+      <p class="tagline"
+        >Howdy! I'm a front-end developer who loves responsive design and css. I
+        am working on a degree in front-end web development at Treehouse and
+        am excited to put all my skills to use!
+      </div>
+
+      <main class="portfolio" id="port">
+        <h3>Portfolio</h3>
+   
+
+      <div class="sections">
+            <div class="marketing block">
+            <img src="img/portfolio-1.png" alt="portfolio-1"/>
+            <p>Marketing Page</p>
+            <p>
+              This project shows the front page of a marketing website meant for
+              a specific business I'm interested in.
+            </p>
+          </div>
+
+          <div class="search block">
+          <img src="img/portfolio-2.png" alt="portfolio-2" />
+            <p>Search Page</p>
+            <p>
+              This project searches through a specific database to find
+              information that the user is trying to look up.
+            </p>
+          </div>
+
+          <div class="travel block">
+            <img src="img/portfolio-3.png" alt="portfolio-3" />
+            <p>Travel App</p>
+            <p>
+              This project compares travel times based on different
+              transportation methods and tells you the best one.
+            </p>
+          </div>
+
+            <div class="map block">
+            <img src="img/portfolio-4.png" alt="portfolio-4" />
+            <p>Map of Favorite Spots</p>
+            <p>
+              This projiect uses mapping apis to plot points for my favorite
+              spots in the city for a do-it-yourself walking tour.
+            </p>
+          </div>
+
+            <div class="photo block">
+            <img src="img/portfolio-5.png" alt="portfolio-5" />
+            <p>Photo Gallery</p>
+            <p>
+              This project shows pictures from a recent trip to the viewer and
+              allows them to easily navigate through photos.
+            </p>
+          </div>
+
+          <div class="calculator block">
+            <img src="img/portfolio-6.png" alt="portfolio-6" />
+            <p>Calculator</p>
+            <p>
+              Someone can enter in the numbers they want and press the big blue
+              button and get the result.
+            </p>
+          </div>
+        </div>
+        </main>
+  
+        <div id="skills">
+          <h3>Skills</h3>
+          <ul class="ability">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Website Design</li>
+          </ul>
+      </div>
+
+      <div class="contact" id="HMU">
+        <h3>Contact</h3>
+        <p id="chat">
+          If you're interested in chatting or want more information about what
+          I've been working on, l'd love to hear from you!
+        </p>
+        <h2><u>Phone</u> +1 (123) 867-5309</h2>
+        <h2><u>Email</u> email@yoursite.com</h2>
+        <hr>
+    </div>
+
+    <div class="main-footer">
+      <p>Mir Thomasson</p>
+      <p id="back"><a href="#">BACK TO TOP</a></p>
+      <ul class="bottom-nav">
+        <li><a href="#"><strong>Home</strong></a></li>
+        <li><a href="#port"><strong>Portfolio</strong></a></li>
+        <li><a href="#skills"><strong>Skills</strong></a></li>
+        <li><a href="#tact"><strong>Contact</strong></a></li>
     </ul>
-</header>
-
-<div class="container">
-    <body>
-        <img src="/images/responsive-layout-profile.png" alt="profile picture" />
-            <p>Howdy! I'm a front-end developer who loves responsive design and css. I recently finished a degree in 
-            front-end web development at Treehouse and am excited to put all my skills to use!</p>
-    </body>
-  <li>Portfolio</li>
-  <img src="/images/portfolio-1.png" alt="portfolio-1" />
-    <h1>Marketing Page</h1>
-    <p>This project shows the front page of a
-    marketing website meant for a specific business I'm interested in.
-  <img src="/images/portfolio-2.png" alt="portfolio-2" />
-    <h1>Search Page</h1>
-    <p>This project searches through a specific database to find information that the user is trying to look up.</p>
-  <img src="/images/portfolio-3.png" alt="portfolio-3" />   
-    <h1>Travel App</h1>
-    <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-   <img src="/images/portfolio-4.png" alt="portfolio-4" />
-    <h1>Map of Favorite Spots</h1>
-    <p>This projiect uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
-  <img src="/images/portfolio-5.png" alt="portfolio-5" />
-    <h1>Photo Gallery</h1>
-    <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-  <img src="/images/portfolio-6.png" alt="portfolio-6" />
-  <h1>Calculator</h1>
-    <p>Someone can enter in the numbers they want and press the big blue button and get the result.</p>
-  <li>Contact</li>
-    <p>If you're interested in chatting or want
-        more information about what I've been
-        working on, l'd love to hear from you!</p>
-        <h2> Phone 444-999-1234</h2>
-        <h2> Email email@yoursite.com</h2>
   </div>
-
-
-  <footer class="main-footer">
-    <span>Mir Thomasson BACK TO TOP</span>
 </footer>
+  </body>
 </html>
