@@ -68,6 +68,16 @@ hr {
   width: 100%;
 }
 
+.port {
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.top {
+  font-size: larger;
+  font-weight: 600;
+}
+
 .portfolio {
   text-align: center;
   color: black;
@@ -75,6 +85,20 @@ hr {
     rgba(173, 230, 222, 0.596) 25%,
     rgba(139, 202, 152, 0.623) 75%
   );
+}
+
+#skills {
+  text-align: center;
+  color: black;
+  background-color: #ebebfb;
+  padding-bottom: 30px;
+}
+
+#HMU {
+  text-align: center;
+  color: black;
+  background-color: #ebebfb;
+  padding-bottom: 30px;
 }
 
 .contact {
@@ -161,9 +185,14 @@ hr {
 
   .tagline {
     font-size: larger;
-    margin-top: 0;
-    padding: 0 16px;
+    padding: 60 40px;
     order: -1;
+    text-align: center;
+  }
+
+  .logo {
+    max-height: 200px;
+    max-width: 200px;
   }
 
   .sections {
@@ -196,6 +225,16 @@ hr {
 
   .contact {
     padding: 1em 0;
+  }
+
+  #skills {
+    margin: 1em;
+    border-radius: 2%;
+  }
+
+  #HMU {
+    margin: 1em;
+    border-radius: 2%;
   }
 
   #back {
@@ -244,11 +283,6 @@ hr {
 
   .block {
     max-width: 33%;
-  }
-
-  #HMU {
-    margin: 1em 2.5em;
-    padding: 0 2.5em;
   }
 
   li.nav {
